@@ -2,6 +2,7 @@
 
 Bu proje, HTML ve CSS becerilerimi geliştirmek amacıyla yapılmış bir Instagram giriş sayfası klonudur. Frontend geliştirme yeteneklerimi pekiştirmek ve modern CSS özelliklerini uygulamalı olarak öğrenmek için oluşturuldu takıldığım yerde yapayzekadan destek alarak yeni şeyler öğrendim.
 
+[Instagram Clone Projesi Canlı Demo](https://igloginclone.vercel.app/)
 
 ![Instagram Clone Screenshot](img/screenshot.png)
 
