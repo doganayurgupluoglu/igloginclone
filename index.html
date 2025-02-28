@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>İnstagram Clone Pratiği</title>
+</head>
+<body>
+    <main>
+        <div class="images">
+            <img src="https://static.cdninstagram.com/images/instagram/xig/homepage/phones/home-phones.png?__makehaste_cache_breaker=HOgRclNOosk"  class="phone" alt="">
+            <img src="img/screenshot3.png" class="screenshot" alt="">
+        </div>
+    <div class="main-container">
+        <div class="container">
+            <img src="/img/instagram.svg" height="51px" width="175px" class="logo" alt="">
+            <!-- Input Zone -->
+            <div class="login-inputs">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="username" placeholder="Telefon numarası, kullanıcı adı veya e-posta" minlength="4" required>
+                    <label for="username" class="form-label">Telefon numarası, kullanıcı adı veya e-posta</label>
+                </div>
+            <form id="login-form">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="username" placeholder="Kullanıcı adı" minlength="4" required>
+                    <label for="username" class="form-label">Şifre</label>
+                </div>  
+                <!-- BUTTON -->
+                 <button type="submit" class="btn-login">Giriş yap</button>
+            </form>
+            <div class="divider">
+                <span class="line"></span>
+                <span class="text">YA DA</span>
+                <span class="line"></span>
+            </div>
+            <div class="alternative">
+                <a class="face" href="https://doganaylab.com" target="_blank" ><img src="/img/facebook.svg" height="15px" alt="Facebook"> Facebook ile Giriş Yap </a>
+                <a href="https://doganaylab.com" target="_blank" class="sifre"> Şifreni mi unuttun? </a>
+            </div>     
+            </div>
+        </div>
+            <div class="register">
+                <p>Hesabın yok mu? <a href="https://doganaylab.com" target="_blank"> Kayıt ol </a></p>
+            </div>
+            <div class="downloads">
+                <p>Uygulamayı indir.</p>
+                <div class="download-buttons">
+                    <img src="/img/gogılpiley.png" height="40px" alt="">
+                    <img src="/img/microsoft.png" height="40px" alt="">
+                </div>
+            </div>
+        </div>
+    </div>    
+    <footer class="instagram-footer">
+        <div class="footer-links">
+            <a href="#">Meta</a>
+            <a href="#">Hakkında</a>
+            <a href="#">Blog</a>
+            <a href="#">İş Fırsatları</a>
+            <a href="#">Yardım</a>
+            <a href="#">API</a>
+            <a href="#">Gizlilik</a>
+            <a href="#">Koşullar</a>
+            <a href="#">Konumlar</a>
+            <a href="#">Instagram Lite</a>
+            <a href="#">Threads</a>
+            <a href="#">Kişi Yükleme ve Hesabı Olmayan Kişiler</a>
+            <a href="#">Meta Verified</a>
+        </div>
+        <div class="footer-bottom">
+            <div class="language-selector">
+                <select name="language" id="language">
+                    <option value="tr">Türkçe</option>
+                    <option value="en">English</option>
+                    <option value="es">Español</option>
+                    <option value="fr">Français</option>
+                </select>
+            </div>
+            <div class="copyright">
+                © 2023 Instagram from Meta
+            </div>
+        </div>
+    </footer>
+    
+    </main>
+</body>
+</html>
+
+
+<!-- Aşağıdaki CSS kodları için Claude Sonnet 3.7'den yardım aldım -->
+
+<!-- .form-group {
+    position: relative;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-label {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: #999;
+    transition: all 0.2s ease;
+    pointer-events: none;
+  }
+  
+  /* Input'a focus olduğunda veya içinde değer olduğunda label'ı yukarı taşı */
+  .form-control:focus + .form-label,
+  .form-control:not(:placeholder-shown) + .form-label {
+    top: -10px;
+    font-size: 12px;
+    color: #333;
+    background: white;
+    padding: 0 5px;
+  }
+  
+  /* Placeholder'ı gizle çünkü kendi label'ımızı kullanıyoruz */
+  .form-control::placeholder {
+    color: transparent;
+  } -->
